@@ -1,0 +1,7 @@
+.componentbox {
+    border-radius: 2em;
+    border : "3px solid #73000A";
+    background:"white";
+    color:"black";
+    padding:"1em"
+}
