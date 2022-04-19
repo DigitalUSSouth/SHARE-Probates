@@ -10,8 +10,8 @@ import {
 
 export default function BrowseBox(props: any) {
   console.log(props);
-  const unorderedListItems = props.listItems.map((item: String) => (
-    <ListItem color="blue">
+  const unorderedListItems = props.listItems.map((item: string) => (
+    <ListItem key={item} color="blue">
       <a href="#">{item}</a>
     </ListItem>
   ));
